@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://virtualassistant-client.onrender.com",
+    origin: "https://ai-assistant-app-ek6k.onrender.com",
     credentials: true,
   })
 );
