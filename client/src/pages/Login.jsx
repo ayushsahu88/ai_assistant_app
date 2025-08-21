@@ -3,7 +3,7 @@ import { FaLock, FaEnvelope } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import bg from "../assets/authbg.jpg";
 import axios from "axios";
-import { userDataContext } from "../context/userContext";
+import { userDataContext } from "../context/UserContext";
 
 export default function Login() {
   const { serverUrl, userData, setUserData } = useContext(userDataContext);
