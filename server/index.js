@@ -16,7 +16,6 @@ app.use(express.json());
 app.use(
   cors({
      "http://localhost:5173",
-      "https://ai-assistant-app-ek6k.onrender.com",
     credentials: true,
   })
 );
