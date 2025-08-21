@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Customize from "./pages/Customize";
-import { userDataContext } from "./context/userContext";
+import { userDataContext } from "./context/UserContext";
 import Home from "./pages/Home";
 import Customize2 from "./pages/Customize2";
 
