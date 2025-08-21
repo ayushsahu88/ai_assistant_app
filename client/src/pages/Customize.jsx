@@ -9,7 +9,7 @@ import { RiImageAddLine } from "react-icons/ri";
 import { IoArrowBack } from "react-icons/io5";
 
 import Card from "../components/Card";
-import { userDataContext } from "../context/userContext";
+import { userDataContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 
 const Customize = () => {
